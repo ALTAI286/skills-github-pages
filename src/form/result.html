@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результат</title>
+    <script>
+        window.onload = function () {
+            const params = new URLSearchParams(window.location.search);
+            const data = params.get("data", "data1");
+            document.getElementById("output").textContent = data ? data : "Нет данных";
+            document.getElementById("output1").textContent = data1 ? data : "Нет данных";
+
+        };
+    </script>
+</head>
+<body>
+
+    <h2>Вы ввели:</h2>
+    <p id="output"></p>
+    <p id="output1"></p>
+</body>
+</html>

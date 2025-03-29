@@ -1,0 +1,423 @@
+.domine-uniquifier {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 60px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    font-family: "Oswald", serif;
+}
+
+.container{
+    padding: 0px 0px 0px 110px;
+}
+
+
+.main{
+    padding: 54px 0px 0px 0px ;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+ 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    text-align: center;
+ 
+}
+nav{
+display: flex;
+    padding: 0px 0px 0px 1250px;
+    text-align: center;
+    text-align: center;
+}
+.production {
+    display: flex;
+    justify-content: left;
+}
+
+.blocks1 {
+    display: flex;
+    gap: 80px; /* Расстояние между карточками */
+    flex-wrap: wrap; /* Чтобы карточки переносились на новую строку при нехватке места */
+}
+
+.block1 {
+   height: 100px; /* Или другой размер, который подходит */
+    text-align: center;
+    height: 343px;
+}
+.cat{
+    padding: 74px 0px 0px 25px;
+}
+
+.block1 img {
+    width: 160px;
+    height: 190px;
+    padding-top: 20px;
+}
+
+.production{
+    padding: 84px 0px 0px 25px;
+}
+
+.block1{
+     background: #F2F2F2;
+     width: 245px;
+     height: 551px;
+     
+}
+
+.blocks1{
+    display: flex;
+    gap: 250px;
+}
+
+.BigCitchen{
+    margin: 30px 0px 0px ;
+}
+
+.mass{
+    display: flex;
+    margin: 21px 0px 0px 35px;
+    gap: 100px;
+}
+
+.line{
+    border: 1px solid #CDCDCD;
+    margin: 10px 0px 0px 30px ;
+    width: 179px;
+}
+
+.Taste{
+    display: flex;
+    margin: 5px 0px 0px 35px;
+    gap: 100px;
+}
+.price{
+    display: flex;
+    margin: 5px 0px 0px 35px;
+    gap: 100px;
+}
+
+.btnf{
+    margin: 33px 0px 0px 0px;
+    width: 168px;
+    height: 40px;
+    background: #68B738;
+    border: none;
+    color: white;
+
+    
+}
+
+.btnf:hover{
+  transition: 250ms;
+  scale: 1.1;
+  cursor: pointer;
+}
+
+
+.btnf:active{
+  transition: 250ms;
+  scale: 0.9;
+  color: #2e680a;
+  
+}
+
+.blocks2{
+    display: flex;
+    gap: 250px;
+    
+    padding: 140px 0px 0px 135px;
+    flex-wrap: wrap; /* Чтобы карточки переносились на новую строку при нехватке места */
+}
+
+
+.block2{
+    width: 245px;
+    height: 551px;
+   
+    text-align: center;
+    border: 2px #F2F2F2 solid;
+}
+
+.new{
+    margin: 51px 93px 49px 92px;
+}
+
+p{
+   color:  #444444;
+}
+
+.textik{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.buttonik{
+    margin: 165px 0px 0px 0px;
+}
+
+.btng{
+    width: 169px;
+    height: 40px;
+    border: none;
+    
+     color: #444444;
+}
+
+.btng:hover{
+    transition: 250ms;
+    scale: 1.1;
+    cursor: pointer;
+  }
+  
+  
+  .btng:active{
+    transition: 250ms;
+    scale: 0.9;
+    
+  
+    color: #44454455;
+  }
+
+  .line1{
+    width: 70px !important;
+    border: 1px solid #68B738 !important;
+  }
+
+  .tovar{
+    padding: 76px 0px 0px 0px ;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+.tovar h1{
+    margin:0px 0px 0px 40px ;
+}
+
+.line2{
+    align-items: center;
+    margin: 0px 0px 0px 35px;
+    width: 1625px !important;
+    top: 1518px !important;
+    border-width: 2px !important;
+    height: 0px !important;
+    border: 1px solid #68B738;
+}
+
+.line4{
+    border: 1px solid #CDCDCD;
+    width: 1255px;
+    margin: 0px 0px 15px 0px;
+ 
+}
+
+.maintovar{
+    padding: 81px 0px 0px 110px;
+}
+
+.sugar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 200px;
+}
+
+.BtnS{
+    width: 244px;
+height: 40px;
+background: #68B738;
+border: none;
+color: white;
+}
+
+
+.BtnS:hover{
+    transition: 250ms;
+    scale: 1.1;
+    cursor: pointer;
+  }
+  
+  
+  .BtnS:active{
+    transition: 250ms;
+    scale: 0.9;
+    color: #2e680a;
+    
+  }
+
+
+  .sugar{
+    padding: 0px 0px 17px 0px ;
+  }
+
+  .water{
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 235px;
+        padding: 0px 0px 17px 0px ;
+  }
+
+  .milk{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 265px;
+    padding: 0px 0px 17px 0px ;
+  }
+  .vitamins{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 235px;
+    padding: 0px 0px 17px 0px ;
+  }
+
+  .gift{
+
+   
+    background-image: url(./imgs/gift-photo-desktop.png);
+    width: 245px;
+    height: 289px;
+
+
+
+
+
+    position: absolute;
+  ;
+    z-index: -1;
+    background-repeat:no-repeat ;
+    background-size: 245px 289px;
+
+
+
+  }
+
+  .nado{
+    display: flex;
+  }
+  .giftik{
+    padding: 80px 0px 0px 70px !important;
+  }
+  .maingift{
+    margin: 55px 0px 0px 0px;
+    display: flex;
+    gap: 38px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  }
+
+  .maingift p{
+    color: white;
+  }
+
+  .footer{
+    display: flex;
+
+    align-items: center;
+  
+    margin: 400px 0px 0px 110px;
+    background-color: #F2F2F2;
+    width: 1790px;
+    height: 149px;
+  
+    
+
+
+}
+
+.footermain{
+    margin: 25px 0px 0px 110px;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.imgs{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0px 0px 0px 584px;
+}
+
+
+.rtr{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    padding: 0px 0px 0px 500px;
+}
+.academy{
+    display: flex;
+    align-items: center;
+    color: black
+    ;
+    text-align: center;
+}
+
+.rtr{
+    height: 100px;
+}
+
+.academy:hover{
+    transition: 250ms;
+    color: #68B738;
+}
+
+.map{
+    margin: 0px 0px 0px 110px;
+    background-image: url(./imgs/Map.png);
+    background-repeat: no-repeat;
+
+  background-size: cover;
+   
+
+    position: absolute;
+ 
+    z-index: -1;
+
+    width: 1790px;
+    height: 400px;
+
+}
+
+.contacts{
+    background-color: white;
+    width: 570px;
+height: 211px;
+top: 95px;
+left: 110px;
+
+margin: 95px 760px 104px 110px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}

@@ -1,0 +1,221 @@
+.domine-uniquifier {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 60px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    font-family: "Oswald", serif;
+}
+
+
+
+.main{
+padding:54px 0px 0px 110px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+}
+
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.programm{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    padding: 73px 0 0 110px;
+}
+.anketa{
+    padding: 66px 0px 0px 110px;
+   
+
+ 
+}
+
+.inpname{
+    width: 1099px;
+height: 52px;
+
+
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+h2{
+    color: #444444;
+}
+.weight{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 20px 0px 20px 0px;
+    text-wrap: nowrap;
+}
+
+.inpweight{
+    width: 1065px;
+height: 52px;
+
+
+
+}
+
+.age{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+   
+    text-wrap: nowrap;
+}
+
+.inpage{
+    width: 1000px;
+height: 52px;
+
+
+}
+
+.choice{
+    width: 568px;
+height: 200px;
+border: 1px solid;
+
+
+}
+
+.ank{
+    display: flex;
+}
+.choice{
+    margin: 65px ;
+}
+
+.InpWeightLoss{
+    
+    accent-color: green;
+    width: 40px;
+    height: 40px;
+  
+
+}
+
+.Weightloss{
+    margin: 26px 0px 0px 28px;
+    display: flex;
+    align-items: center;
+    text-align: center
+    ;
+}
+
+.InpWeightGain{
+        
+        accent-color: green;
+        width: 40px;
+        height: 40px;
+        
+}
+
+.weightgain{
+    margin: 26px 0px 0px 28px;
+    display: flex;
+    align-items: center;
+    text-align: center
+    ;
+}
+
+.DoesntKnow{
+    margin: 17px 0px 0px 28px;
+    display: flex;
+    align-items: center;
+    text-align: center
+    ;
+}
+
+.InpDoesntKnow{
+    accent-color: green;
+    width: 40px;
+    height: 40px;
+}
+
+.line1{
+    width: 70px !important;
+    top: 1518px !important;
+    border-width: 2px !important;
+    height: 0px !important;
+    border: 1px solid #68B738;
+}
+
+
+.contacts{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.line2{  align-items: center;
+margin: 0px 0px 0px 35px;
+width: 1625px !important;
+top: 1518px !important;
+border-width: 2px !important;
+height: 0px !important;
+border: 1px solid #68B738;
+}
+
+.contacts h1{
+    text-wrap: nowrap;
+}
+.Data{
+    padding: 86px 0px 0px 111px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.InpEmail{
+    width: 486px;
+height: 50px;
+
+
+}
+
+.Data{
+    display: flex;
+    gap: 178px;
+}
+
+.PhoneNumber{
+    display: flex;
+    align-items: center;
+    gap: 14px;}
+.InpPhoneNumber{
+    width: 472px;
+    height: 50px;
+}
+
+.Additionally{
+    display: flex;
+    align-items: center;
+    
+}
